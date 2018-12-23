@@ -58,15 +58,15 @@
 #include <BlynkSimpleEsp8266.h>
 
 #define DHTPIN 10          // Temp sensor hardware pin on SD3/GPIO10
-#include "DHTesp.h"
+#include "DHTesp.h"  // https://github.com/beegee-tokyo/DHTesp
 DHTesp dht;
-#include <TimeLib.h>
+#include <TimeLib.h> // https://github.com/PaulStoffregen/Time
 #include <WidgetRTC.h>
 
 WidgetRTC rtc;
 BlynkTimer timer;
 
-#include "SSD1306.h" // alias for #include "SSD1306Wire.h"
+#include "SSD1306.h" // https://github.com/ThingPulse/esp8266-oled-ssd1306
  SSD1306  display(0x3c, D7, D6); // SDA, SCL , GPIO 13 and GPIO 12
 
 
