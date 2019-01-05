@@ -16,3 +16,4 @@ IoT thermostat using Blynk Platform
 	- Schedule working interval
 	- Auto disable when it's on Manual
 	
+<a href="https://github.com/rotarucosminleonard/Blynk-Thermostat/releases/tag/v1.0">Check the releases</a>	
